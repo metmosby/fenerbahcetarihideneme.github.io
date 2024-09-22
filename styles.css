@@ -1,0 +1,81 @@
+/* Genel Stil Ayarları */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #003f6c;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    margin: 0;
+}
+
+/* Ana İçerik Stil Ayarları */
+main {
+    padding: 20px;
+}
+
+.intro-img, .history-img {
+    width: 70%;
+    max-width: 25%;
+    display: block;
+    margin: 20px auto;
+}
+
+/* Dönüm Noktaları */
+.milestones {
+    background-color: #e0e0e0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.milestones ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.milestones li {
+    background: #fff;
+    border: 1px solid #ddd;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Footer Stili */
+footer {
+    background-color: #003f6c;
+    color: white;
+    text-align: center;
+    padding: 0px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
